@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página</title>
+    <style>
+        #mainBox{
+            width: 800px;
+            height: 500px;
+        }
+        #mainBox_head{
+            height: 50px;
+            background: #000;
+        }
+        #mainBox_footer{
+            height: 50px;
+            background: #000;
+            
+        }
+        #mainBox_content{
+            height: 400px;
+            background: grey;
+            width: 600px;
+            float: right;
+
+        }
+        #mainBox_menu{
+            height: 400px;
+            width:200px;
+            background: lightgrey;
+            display: inline-block;
+        }
+        #head_title{
+            font-family: arial black;
+            color: white;
+        }
+        #footer_text{
+            color: white;
+            margin: 0;
+        }
+        #item-3_ref,#item-2_ref,#item-1_ref{
+            text-decoration: none;
+            color: #000;
+        }
+        #menu_nav{
+            list-style: none;
+        }
+        #nav_item-1, #nav_item-2, #nav_item-3{
+            margin-top: 10px;
+        }
+        #nav_item-1{
+            margin-top: 40px;
+        }
+        #content_title{
+            color: palevioletred;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <div id="mainBox">
+        <div id="mainBox_head">
+            <p id="head_title">Título de la página</p>
+        </div>
+        <div id="mainBox_menu">
+            <p id="menu_title">MENÚ</p>
+            <ul id="menu_nav">
+                <li id="nav_item-1"><a href="ejercicio10.html" id="item-1_ref">PÁGINA 1</a></li>
+                <li id="nav_item-2"><a href="https://www.huetortajar.org" id="item-2_ref">PÁGINA 2</a></li>
+                <li id="nav_item-3"><a href="1.docx" id="item-3_ref">PÁGINA 3</a></li>
+            </ul>
+        </div>
+        <div id="mainBox_content">
+            <h2 id="content_title">titulo del contenido</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio, sint itaque. Tempora quos tenetur obcaecati eaque illum repellat amet vitae, perspiciatis, possimus quae cumque cum temporibus soluta. Ad, perferendis totam!</p>
+        </div>
+        <div id="mainBox_footer">
+            <p id="footer_text">footer</p>
+        </div>
+    </div>
+</body>
+</html>
